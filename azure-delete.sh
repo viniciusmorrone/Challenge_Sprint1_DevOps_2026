@@ -1,3 +1,4 @@
+#!/bin/bash
 RG="rg-atomo-sprint1"
 az group delete --name $RG --yes --no-wait
 az group wait --name $RG --deleted
