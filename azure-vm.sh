@@ -2,7 +2,7 @@
 set -e
 
 RG="rg-atomo-sprint1"
-LOCATION="brazilsouth"
+LOCATION="eastus"
 VM_NAME="vm-atomo"
 ADMIN="azureuser"
 IMAGE="Ubuntu2204"
