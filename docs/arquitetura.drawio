@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="atomo-sprint1" name="Arquitetura Sprint 1">
+    <mxGraphModel dx="1400" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1420" pageHeight="820" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Átomo+ — Arquitetura DevOps (Sprint 1)" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="1340" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sub" value="Assinatura Azure for Students" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0078D4;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=40;spacingTop=6;fontSize=14;fontStyle=1;fontColor=#0078D4;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="790" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="region" value="Região: North Central US" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7A7A7A;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="125" width="750" height="625" as="geometry" />
+        </mxCell>
+        <mxCell id="rg" value="Resource Group: rg-atomo-sprint1" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=#F3F8FD;strokeColor=#0078D4;verticalAlign=top;align=left;spacingLeft=40;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#0078D4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="710" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet" value="Virtual Network: vm-atomoVNET / vm-atomoSubnet" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50A14F;dashed=1;verticalAlign=top;align=left;spacingLeft=40;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#2E7D32;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="670" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vm" value="Virtual Machine: vm-atomo&lt;br&gt;Ubuntu 22.04 LTS · Standard_B2als_v2 · IP privado 10.0.0.4" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#E6F2FB;strokeColor=#0078D4;verticalAlign=top;align=left;spacingLeft=50;spacingTop=4;fontSize=13;fontStyle=1;fontColor=#003A70;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="460" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="docker" value="Docker Engine" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#EAF6FD;strokeColor=#2496ED;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=50;spacingTop=10;fontSize=13;fontStyle=1;fontColor=#0B5394;" vertex="1" parent="1">
+          <mxGeometry x="565" y="360" width="410" height="305" as="geometry" />
+        </mxCell>
+        <mxCell id="container" value="Container atomo-api:1.0&lt;br&gt;Java 21 + Spring Boot · porta 8080" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6DB33F;strokeWidth=2;verticalAlign=top;align=center;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#33691E;" vertex="1" parent="1">
+          <mxGeometry x="595" y="430" width="350" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ico_sub" value="" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="76" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_rg" value="" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="176" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_vnet" value="" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="358" y="236" width="30" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_vm" value="" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="548" y="288" width="36" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_docker" value="" style="image;aspect=fixed;html=1;points=[];image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="573" y="368" width="40" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_spring" value="" style="image;aspect=fixed;html=1;points=[];image=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg;" vertex="1" parent="1">
+          <mxGeometry x="625" y="500" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_java" value="" style="image;aspect=fixed;html=1;points=[];image=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg;" vertex="1" parent="1">
+          <mxGeometry x="695" y="500" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_h2" value="H2 (em memória)" style="image;aspect=fixed;html=1;points=[];image=img/lib/mscae/Database_General.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="500" width="42" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ico_pip" value="&lt;b&gt;Public IP&lt;/b&gt;&lt;br&gt;vm-atomoPublicIP" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/networking/Public_IP_Addresses.svg;verticalLabelPosition=top;verticalAlign=bottom;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="305" width="55" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_nsg" value="&lt;b&gt;Network Security Group&lt;/b&gt;&lt;br&gt;vm-atomoNSG&lt;br&gt;libera 22 (SSH) e 8080 (API)" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/networking/Network_Security_Groups.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="414" y="470" width="47" height="57" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ico_user" value="&lt;b&gt;Usuário&lt;/b&gt;&lt;br&gt;Navegador (Swagger UI)" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/identity/Users.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="297" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_shell" value="&lt;b&gt;Administrador&lt;/b&gt;&lt;br&gt;Azure Cloud Shell · Azure CLI&lt;br&gt;azure-vm.sh / azure-delete.sh" style="image;aspect=fixed;html=1;points=[];image=img/lib/azure2/other/Azure_Cloud_Shell.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="60" height="47" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ico_github" value="&lt;b&gt;GitHub&lt;/b&gt;&lt;br&gt;Challenge_Sprint1_DevOps_2026" style="image;aspect=fixed;html=1;points=[];image=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ico_hub" value="&lt;b&gt;Docker Hub&lt;/b&gt;&lt;br&gt;maven:3.9-eclipse-temurin-21&lt;br&gt;eclipse-temurin:21-jre" style="image;aspect=fixed;html=1;points=[];image=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e_user_pip" value="HTTP :8080" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#0078D4;fontSize=12;fontStyle=1;fontColor=#0078D4;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="ico_user" target="ico_pip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pip_nsg" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#0078D4;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="ico_pip" target="ico_nsg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_nsg_container" value="HTTP :8080" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#0078D4;fontSize=12;fontStyle=1;fontColor=#0078D4;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="ico_nsg" target="container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_java_h2" value="JPA" style="html=1;endArrow=block;endFill=1;strokeColor=#33691E;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="ico_java" target="ico_h2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shell_nsg" value="SSH :22" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;dashed=1;strokeWidth=2;strokeColor=#555555;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0;entryY=0.75;" edge="1" parent="1" source="ico_shell" target="ico_nsg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shell_rg" value="Azure CLI&lt;br&gt;HTTPS :443" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#0078D4;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.88;" edge="1" parent="1" source="ico_shell" target="rg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_vm_github" value="git clone (HTTPS)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#333333;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.07;entryX=0;entryY=0.5;" edge="1" parent="1" source="vm" target="ico_github">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_docker_hub" value="docker pull (imagens base)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2496ED;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="docker" target="ico_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
