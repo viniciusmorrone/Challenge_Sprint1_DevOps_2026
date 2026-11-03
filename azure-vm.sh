@@ -1,12 +1,13 @@
+
 #!/bin/bash
 set -e
 
 RG="rg-atomo-sprint1"
-LOCATION="northcentralus"
+LOCATION="brazilsouth"
 VM_NAME="vm-atomo"
 ADMIN="azureuser"
 IMAGE="Ubuntu2204"
-SIZE="Standard_B2als_v2"
+SIZE="Standard_D2s_v4"
 PORT=8080
 REPO_URL="https://github.com/viniciusmorrone/Challenge_Sprint1_DevOps_2026.git"
 
