@@ -37,8 +37,6 @@ O usuário acessa a API pelo navegador ou por requisições HTTP através do **I
 
 Ao final, o script `azure-delete.sh` exclui o grupo de recursos inteiro.
 
-Arquivo editável do diagrama: [`docs/arquitetura.drawio`](docs/arquitetura.drawio).
-
 ### Configuração utilizada na Azure
 
 | Recurso | Configuração |
